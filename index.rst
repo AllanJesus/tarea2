@@ -1,9 +1,9 @@
 Tarea # 2 Allan Quesada Fuentes
 =======================
-.. figure:: ../C:\Users\Allan Quesada\Desktop\Progra 3\diagram.png
+.. figure:: C:\Users\Allan Quesada\Desktop\Progra 3\diagram.png
     :align: right
     :figwidth: 300px
-    :target: ../C:\Users\Allan Quesada\Desktop\Progra 3\diagram.png
+    :target: /C:\Users\Allan Quesada\Desktop\Progra 3\diagram.png
 
 Manejo de Herencia en C#
 =======================
