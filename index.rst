@@ -22,15 +22,15 @@ Ejemplo
 -----------
 La interface se define
 
-.. code-block::
     interface IEquatable<T>
     {
     bool Equals(T obj);
     }
 
 Implementacion de una interface
-public class Car : IEquatable<Car>
-{
+
+    public class Car : IEquatable<Car>
+    {
     public string Make {get; set;}
     public string Model { get; set; }
     public string Year { get; set; }
@@ -51,28 +51,58 @@ Exepciones
 Las excepciones las inicia el código que encuentra un error y las detecta el código que puede corregir dicho error. Las excepciones puede iniciarlas .NET Framework Common Language Runtime o el código de un programa.
 
 Las excepciones están representadas por clases derivadas de Exception. Esta clase identifica el tipo de excepción y contiene propiedades que tienen los detalles sobre la excepción. Iniciar una excepción implica crear una instancia de una clase derivada de excepción, configurar opcionalmente las propiedades de la excepción y luego producir el objeto con la palabra clave throw.
+ 
+Try:
+----
+Un bloque de prueba identifica un bloque de código para el cual se activan excepciones particulares. Es seguido por uno o más bloques de captura.
 
-class CustomException : Exception
-       {
-           public CustomException(string message)
-           {
-              
-           }
+Catch:
+------
+Un programa detecta una excepción con un controlador de excepciones en el lugar de un programa en el que desea manejar el problema. La palabra clave catch indica la captura de una excepción.
 
-       }
-       private static void TestThrow()
-       {
-           CustomException ex =
-               new CustomException("Custom exception in TestThrow()");
+Finally:
+--------
+El bloque finally se utiliza para ejecutar un conjunto dado de sentencias, ya sea que se lance una excepción o no. Por ejemplo, si abre un archivo, debe cerrarse si se produce una excepción o no.
 
-           throw ex;
-       }
+Ejemplo:
+--------
+
+using System;
+
+namespace ErrorHandlingApplication {
+   class DivNumbers {
+      int result;
+      
+      DivNumbers() {
+         result = 0;
+      }
+
+      public void division(int num1, int num2) {
+         try {
+            result = num1 / num2;
+         } catch (DivideByZeroException e) {
+            Console.WriteLine("Exception caught: {0}", e);
+         } finally {
+            Console.WriteLine("Result: {0}", result);
+         }
+      }
+
+      static void Main(string[] args) {
+         DivNumbers d = new DivNumbers();
+         d.division(25, 0);
+         Console.ReadKey();
+      }
+   }
+}
 
 
 
 Referencias
 ------------------
+* `Sam, S. (13 de 08 de 2018). TutorialsPoint. Obtenido de Try-Catch-Finally in C#: https://www.tutorialspoint.com/Try-Catch-Finally-in-Chash`
+* `DocsMicrosoft. (19 de 07 de 2015). Obtenido de Usar excepciones (Guía de programación de C#): https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/exceptions/using-exceptions`
+* `DocsMicrosoft. (20 de 08 de 2018). Obtenido de Interfaces: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/`
+* `Lopez, Y. (2007). Iniciacion en la Programacion C#. Obtenido de Un Enfoque Practico: https://books.google.es/books?hl=es&lr=&id=RISjyT8ts7QC&oi=fnd&pg=PA1&dq=clases+abstractas+c%23&ots=dzD-45Jhv8&sig=AZsqPuGW_Sv6nXfn0CiMO4ouq3Q#v=onepage&q=clases%20abstractas%20c%23&f=false`
 
-* `Sphinx documentation`_
-* `RestructuredText primer`_
-* `An introduction to Sphinx and Read the Docs for technical writers`_
+
+
