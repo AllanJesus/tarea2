@@ -1,4 +1,4 @@
-Tarea # 2 Investigacion
+Tarea # 2 Allan Quesada Fuentes
 =======================
 
 Manejo de Herencia en C#
@@ -40,6 +40,7 @@ public class Car : IEquatable<Car>
                this.Year == car.Year;
     }
 }
+
 Manejo de Exepciones
 ====================
 Exepciones 
