@@ -65,3 +65,11 @@ class CustomException : Exception
            throw ex;
        }
 
+
+
+Referencias
+------------------
+
+* `Sphinx documentation`_
+* `RestructuredText primer`_
+* `An introduction to Sphinx and Read the Docs for technical writers`_
