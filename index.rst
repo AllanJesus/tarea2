@@ -99,10 +99,10 @@ namespace ErrorHandlingApplication {
 
 Referencias
 ------------------
-* `Sam, S. (13 de 08 de 2018). TutorialsPoint. Obtenido de Try-Catch-Finally in C#: https://www.tutorialspoint.com/Try-Catch-Finally-in-Chash`
-* `DocsMicrosoft. (19 de 07 de 2015). Obtenido de Usar excepciones (Guía de programación de C#): https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/exceptions/using-exceptions`
-* `DocsMicrosoft. (20 de 08 de 2018). Obtenido de Interfaces: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/`
-* `Lopez, Y. (2007). Iniciacion en la Programacion C#. Obtenido de Un Enfoque Practico: https://books.google.es/books?hl=es&lr=&id=RISjyT8ts7QC&oi=fnd&pg=PA1&dq=clases+abstractas+c%23&ots=dzD-45Jhv8&sig=AZsqPuGW_Sv6nXfn0CiMO4ouq3Q#v=onepage&q=clases%20abstractas%20c%23&f=false`
+* `Sam, S. (13 de 08 de 2018). TutorialsPoint. Obtenido de Try-Catch-Finally in C#:     https://www.tutorialspoint.com/Try-Catch-Finally-in-Chash`
+* `DocsMicrosoft. (19 de 07 de 2015). Obtenido de Usar excepciones (Guía de programación de C#):    https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/exceptions/using-exceptions`
+* `DocsMicrosoft. (20 de 08 de 2018). Obtenido de Interfaces: https://docs.microsoft.com/en-    us/dotnet/csharp/programming-guide/interfaces/`
+* `Lopez, Y. (2007). Iniciacion en la Programacion C#. Obtenido de Un Enfoque Practico:     https://books.google.es/books?                  hl=es&lr=&id=RISjyT8ts7QC&oi=fnd&pg=PA1&dq=clases+abstractas+c%23&ots=dzD-45Jhv8&sig=AZsqPuGW_Sv6nXfn0CiMO4ouq3Q#v=onepage&q=clases%20abstractas%20c%23&f=false`
 
 
 
