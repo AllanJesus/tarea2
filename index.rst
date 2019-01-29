@@ -22,11 +22,12 @@ Ejemplo
 -----------
 La interface se define
 
-´´´
-interface IEquatable<T>
-{
+.. code-block:: C#
+    interface IEquatable<T>
+    {
     bool Equals(T obj);
-}
+    }
+
 Implementacion de una interface
 public class Car : IEquatable<Car>
 {
