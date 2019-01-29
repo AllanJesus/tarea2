@@ -22,7 +22,7 @@ Ejemplo
 -----------
 La interface se define
 
-.. code-block:: C#
+.. code-block::
     interface IEquatable<T>
     {
     bool Equals(T obj);
