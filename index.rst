@@ -21,6 +21,7 @@ Las interfaces describen un grupo de comportamientos relacionados que pueden per
 Ejemplo
 -----------
 La interface se define
+´´´C#
 interface IEquatable<T>
 {
     bool Equals(T obj);
@@ -40,6 +41,7 @@ public class Car : IEquatable<Car>
                this.Year == car.Year;
     }
 }
+´´´
 
 Manejo de Exepciones
 ====================
