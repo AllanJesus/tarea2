@@ -43,7 +43,6 @@ public class Car : IEquatable<Car>
                this.Year == car.Year;
     }
 }
-´´´
 
 Manejo de Exepciones
 ====================
